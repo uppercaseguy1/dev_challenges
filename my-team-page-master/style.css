@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    height: 28vh;
+    padding-left: 16vw;
+    padding-top: 8vh;
+    padding-right: 14vw;
+}
+
+.header {
+    height: 28vh;
+    display: flex;
+}
+
+.head1 {
+    width: 35vw;
+}
+
+.head1 h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.head2 {
+    width: 35vw;
+}
+
+.head2_head h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.head2_content p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.main {
+    height: 130vh;
+    padding-left: 18vw;
+    padding-top: 4vh;
+    padding-right: 10vw;
+}
+
+
+.row_1 {
+    display: flex;
+    height: 65vh;
+}
+
+.box1 {
+    display: flex;
+}
+
+.side_name {
+    display: flex;
+}
+
+.text {
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-top: 2vh;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    font-family: 'PT Serif', serif;
+}
+
+.vertical2 {
+    writing-mode: vertical-rl;
+    padding-top: 15vh;
+    font-family: 'PT Serif', serif;
+}
+
+.vertical3 {
+    writing-mode: vertical-rl;
+    padding-top: 15vh;
+    font-family: 'PT Serif', serif;
+}
+
+.vertical4 {
+    writing-mode: vertical-rl;
+    font-family: 'PT Serif', serif;
+}
+
+.photo2 {
+    padding-top: 15vh;
+    padding-left: 6vw;
+}
+
+.photo3 {
+    padding-left: 6vw;
+}
+
+.row_2 {
+    display: flex;
+    height: 65vh;
+}
+
+.box4 {
+    display: flex;
+}
+
+.photo5 {
+    padding-top: 15vh;
+    padding-left: 6vw;
+}
+
+.photo6 {
+    padding-left: 6vw;
+}
+
+.photo_size {
+    width: 16vw;
+}
+
+.pic {
+    width: 15vw;
+    height: auto;
+
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: #A9A9A9;
+}
+
+@media(max-width : 641px) {
+    .cover {
+        height: 15vh;
+        padding-left: 6vw;
+        padding-top: 8vh;
+        padding-right: 14vw;
+    }
+    .header {
+        height: 28vh;
+        display: block;
+    }
+
+    .head1 {
+        width: 80vw;
+    }
+
+    .head1 h1 {
+        font-size: 22px;
+    }
+
+    .head2 {
+        padding-top: 3vh;
+        width: 80vw;
+    }
+    
+    .head2_head h3 {
+        font-size: 15px;
+    }
+    
+    .head2_content p {
+        font-size: 12px;
+    }
+
+    .main {
+        height: 140vh;
+        padding-left: 7vw;
+        padding-top: 4vh;
+        padding-right: 10vw;
+    }
+
+    .row_1
+    {
+        display: block;
+        height: 51vh;
+    }
+
+    .photo_size
+    {
+        width: 37vw;
+    }
+
+    .pic
+    {
+        width: 37vw;
+    }
+
+    .photo2
+    {
+        padding-top: 4vh;
+        padding-left: 3vw;
+    }
+
+    .box2
+    {
+        padding-top: 2vh;
+    }
+
+    .photo3
+    {
+        padding-left: 0;
+    }
+
+    .photo4
+    {
+        padding-left: 42vw;
+    }
+
+    .photo5
+    {
+        padding: 0;
+    }
+
+    .photo6
+    {
+        padding-top: 4vh;
+        padding-left: 3vw;
+    }
+
+    .text
+    {
+        padding-top: 1vh;
+    }
+
+    .vertical
+    {
+        font-size: 10px;
+    }
+
+    .vertical2
+    {
+        padding-top: 4vh;
+        font-size: 10px;
+    }
+
+    .vertical3
+    {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .vertical4
+    {
+        padding-top: 4vh;
+        font-size: 10px;
+    }
+
+    .row_2
+    {
+        display: block;
+    }
+}
