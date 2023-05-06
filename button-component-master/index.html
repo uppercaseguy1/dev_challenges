@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="devchallenges.png">
   <link rel="stylesheet" href="style.css">
-  <title>button component master</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>button component master</title>
 </head>
 
 <body>
@@ -15,28 +17,189 @@
     <div class="left">
       <div class="left_header">
         <div class="head">
-          <h1 class="h1">Dev</h1>
-          <h1 class="h2">challenges.io</h1>
+          <h1 class="he1">Dev</h1>
+          <h1 class="he2">challenges.io</h1>
         </div>
       </div>
       <div class="left_body">
-        <ul>
-          <li>Colors</li>
-          <li>Typography</li>
-          <li>Spaces</li>
-          <li>Buttons</li>
-          <li>Input</li>
-          <li>Grid</li>
+        <ul class="items">
+          <li class="list">Colors</li>
+          <li class="list">Typography</li>
+          <li class="list">Spaces</li>
+          <li class="list">Buttons</li>
+          <li class="list2">Input</li>
+          <li class="list">Grid</li>
         </ul>
       </div>
     </div>
     <div class="right">
-
+      <div class="bottom">
+        <div class="right_header">
+          <div>
+            <h1 class="head2">Buttons</h1>
+          </div>
+        </div>
+        <div class="right_body">
+          <div class="line1">
+            <div class="b1">
+              <p class="text1">
+                < Button \>
+              </p>
+              <button class="bt1">Default</button>
+            </div>
+            <div class="b2">
+              <p class="text2">&:hover, &:focus</p>
+              <button class="bt2">Default</button>
+            </div>
+          </div>
+          <div class="line2">
+            <div class="b3">
+              <p class="text1">
+                < Button variant=”outline” \>
+              </p>
+              <button class="bt3">Default</button>
+            </div>
+            <div class="b4">
+              <p class="text2">&:hover, &:focus</p>
+              <button class="bt4">Default</button>
+            </div>
+          </div>
+          <div class="line3">
+            <div class="b5">
+              <p class="text1">
+                < Button variant=”text” \>
+              </p>
+              <button class="bt5">Default</button>
+            </div>
+            <div class="b6">
+              <p class="text2">&:hover, &:focus</p>
+              <button class="bt6">Default</button>
+            </div>
+          </div>
+          <div class="line4">
+            <div class="b7">
+              <p class="text1">
+                < Button disableShadow />
+              </p>
+              <button class="bt7">Default</button>
+            </div>
+          </div>
+          <div class="line5">
+            <div class="b8">
+              <p class="text1">
+                < Button disabled \>
+              </p>
+              <button class="bt8">Disabled</button>
+            </div>
+            <div class="b9">
+              <p class="text1">
+                < Button variant=”text” disabled \>
+              </p>
+              <button class="bt9">Default</button>
+            </div>
+          </div>
+          <div class="line6">
+            <div class="b10">
+              <p class="text1">
+                < Button startIcon=”local_grocery_store” />
+              </p>
+              <button class="bt10"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+              </svg>   Default</button>
+            </div>
+            <div class="b11">
+              <p class="text1">
+                < Button endIcon=”local_grocery_store” />
+              </p>
+              <button class="bt10">Default  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+              </svg></button>
+            </div>
+          </div>
+          <div class="line7">
+            <div class="b12">
+              <p class="text1">
+                < Button size=”sm” />
+              </p>
+              <button type="button" class="btn btn-primary btn-sm">Default</button>
+            </div>
+            <div class="b13">
+              <p class="text1">
+                < Button size=”md” />
+              </p>
+              <button type="button" class="btn btn-primary btn-md">Default</button>
+            </div>
+            <div class="b14">
+              <p class="text1">
+                < Button size=”lg” />
+              </p>
+              <button type="button" class="btn btn-primary btn-lg">Default</button>
+            </div>
+          </div>
+          <div class="line8">
+            <div class="b15">
+              <p class="text1">
+                < Button color=”default” />
+              </p>
+              <button class="bt1">Default</button>
+            </div>
+            <div class="b16">
+              <p class="text1">
+                < Button color=”primary” />
+              </p>
+              <button class="bt7">Default</button>
+            </div>
+            <div class="b17">
+              <p class="text1">
+                < Button color=”secondary” />
+              </p>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+            </div>
+            <div class="b18">
+              <p class="text1">
+                < Button color=”danger” />
+              </p>
+              <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+          </div>
+          <div class="line9">
+            <div class="b19">
+              <p class="text2">&:hover, &:focus</p>
+              <button class="bt1">Default</button>
+            </div>
+            <div class="b20">
+              <p>  </p>
+              <button class="bt7">Default</button>
+            </div>
+            <div class="b21">
+              <p>  </p>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+            </div>
+            <div class="b22">
+              <p>  </p>
+              <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="footer">
-
+    <p class="myname">created by uppercaseguy_1 - devChallenges.io</p>
   </div>
 </body>
 
 </html>
+
+
+<!-- <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button> -->
