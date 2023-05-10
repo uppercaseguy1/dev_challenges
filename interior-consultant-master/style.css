@@ -2,21 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-.header
-{
+.header {
     background-color: black;
     height: 10vh;
     width: 100%;
 }
 
-.sizing
-{
+.sizing {
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 2.5vh;
@@ -25,13 +22,11 @@
     display: flex;
 }
 
-.left_head
-{
+.left_head {
     width: 20vw;
 }
 
-.head_button
-{
+.head_button {
     color: white;
     font-size: 14px;
     font-weight: 200;
@@ -46,88 +41,98 @@
     justify-content: center;
 }
 
-.head_button:hover
-{
+.head_button:hover {
     font-weight: 500;
     cursor: pointer;
 }
 
-.right_head
-{
+.right_head {
     width: 76vw;
 }
 
-.right_head_data
-{
+.right_head_data {
     padding-top: 1vh;
 }
 
-.head_list
-{
+.head_list {
     display: flex;
 }
 
-.head_list
-{
+.head_list {
     gap: 86px;
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.head_list li a
-{
+.head_list li a {
     color: white;
     list-style-type: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
 
-.head_list li a:hover
-{
+.head_list li a:hover {
     font-weight: 700;
     cursor: pointer;
     border-bottom: 2px solid #ffffff;
 }
 
-.main
-{
+.main {
     background-color: black;
     height: 80vh;
     width: 100%
 }
 
-.container2
-{
+.container2 {
     height: 60vh;
-    padding-left: 4vw;
-    padding-top: 4vh;
+    padding-left: 5vw;
+    padding-top: 5vh;
     padding-bottom: 4vh;
     padding-right: 4vw;
     display: flex;
 }
 
-.main_left
-{
+.main_left {
     height: 60vh;
-    width: 36vw;
+    width: 35vw;
 }
 
-.main_right
-{
-    height: 60vh;
-    width: 56vw;
+.main_left_head {
+    padding-top: 125px;
 }
 
-.footer
-{
+.main_left_head h2 {
+    color: white;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main_left_content {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main_right {
+    height: 60vh;
+    width: 55vw;
+}
+
+.footer {
     background-color: black;
     height: 10vh;
     width: 100%
 }
 
-.footer_data
-{
+.footer_data {
     height: 10vh;
     display: flex;
     justify-content: center;
