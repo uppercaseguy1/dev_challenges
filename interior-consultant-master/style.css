@@ -60,6 +60,7 @@
 
 .head_list {
     gap: 86px;
+    list-style-type: none;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -247,4 +248,59 @@
     justify-content: center;
     align-items: center;
     color: #A9A9A9;
+}
+
+@media(max-width : 1300px)
+{
+    .main
+    {
+        height: 150vh;
+    }
+
+    .container2
+    {
+        height: 130vh;
+        display: block;
+    }
+
+    .main_left {
+        height: 60vh;
+        width: 58vw;
+        padding-right: 12vw;
+        padding-left: 12vw;
+    }
+
+    .main_left_content {
+        padding-top: 3vh;
+        width: 58vw;
+    }
+
+    .main_right{
+        height: 80vh;
+        width: 80vw;
+    }
+
+    .main_right_image {
+        height: 51vh;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main_right_container
+    {
+        width: 56vw;
+    }
+
+    .main_right_box
+    {
+        width: 34vw;
+    }
+    .design_by
+    {
+        width: 34vw;
+    }
+    .text3{
+        width: 27vw;
+    }
 }
