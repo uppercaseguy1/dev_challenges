@@ -14,8 +14,8 @@
 }
 
 .sizing {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     height: 5vh;
@@ -23,7 +23,7 @@
 }
 
 .left_head {
-    width: 20vw;
+    width: 15vw;
 }
 
 .head_button {
@@ -47,7 +47,7 @@
 }
 
 .right_head {
-    width: 76vw;
+    width: 65vw;
 }
 
 .right_head_data {
@@ -80,22 +80,22 @@
 
 .main {
     background-color: black;
-    height: 80vh;
+    height: 100vh;
     width: 100%
 }
 
 .container2 {
-    height: 60vh;
-    padding-left: 5vw;
-    padding-top: 5vh;
+    height: 80vh;
+    padding-left: 10vw;
+    padding-top: 4vh;
     padding-bottom: 4vh;
-    padding-right: 4vw;
+    padding-right: 10vw;
     display: flex;
 }
 
 .main_left {
-    height: 60vh;
-    width: 35vw;
+    height: 80vh;
+    width: 30vw;
 }
 
 .main_left_head {
@@ -113,6 +113,12 @@
 }
 
 .main_left_content {
+    padding-top: 3vh;
+    width: 25vw;
+}
+
+.main_left_content p {
+    color: white;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;
@@ -121,9 +127,79 @@
     text-align: left;
 }
 
-.main_right {
+.main_left_link {
+    padding-top: 4vh;
+}
+
+.main_left_link a {
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.main_right
+{
+    height: 80vh;
+    width: 50vw;
+}
+
+.main_right_image
+{
     height: 60vh;
-    width: 55vw;
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+}
+
+.main_right_image img{
+    height: 100%;
+    width: auto;
+}
+
+.main_right_container
+{
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+}
+
+.sizing2
+{
+    padding-right: 27px;
+}
+
+.main_right_box
+{
+    width: 25vw;
+    display: flex;
+    background-color: white;
+}
+
+.photo2
+{
+    width: 30%;
+}
+
+.name_desig
+{
+    width: 70%;
+}
+
+.text
+{
+    color: black;
+}
+
+.design_by
+{
+    width: 25vw;
+    background-color: white;
 }
 
 .footer {
