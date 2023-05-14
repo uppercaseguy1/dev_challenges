@@ -9,4 +9,4 @@ burger.addEventListener('click', ()=>{
     lefthead.classList.toggle('nav_visi');
     header.classList.toggle('nav_height');
     lefthead.classList.toggle('left_head_width');
-}) 
+})
