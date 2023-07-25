@@ -131,9 +131,9 @@
     line-height: normal;
 }
 
-.main_box3_middle {
+.main_box3_middle { 
     padding-top: 25px;
-}
+} 
 
 .main_box3_middle p {
     color: var(--gray-2, #4F4F4F);
