@@ -36,16 +36,21 @@
     line-height: normal;
 }
 
-.header_right { 
+.header_right {
     height: 100%;
     width: 70%;
 }
 
-.header_list {
+.right_head_data {
     display: flex;
     height: 100%;
     justify-content: end;
     align-items: center;
+}
+
+.header_list
+{
+    display: flex;
 }
 
 .header_list li {
@@ -131,9 +136,9 @@
     line-height: normal;
 }
 
-.main_box3_middle { 
+.main_box3_middle {
     padding-top: 25px;
-} 
+}
 
 .main_box3_middle p {
     color: var(--gray-2, #4F4F4F);
@@ -354,7 +359,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    
+
 }
 
 .image2 {
@@ -763,75 +768,108 @@
     line-height: normal;
 }
 
-@media(max-width : 1487px)
-{
-    .main
-    {
+@media(max-width : 1487px) {
+    .main {
         height: 563vh;
     }
 }
 
-@media(max-width : 1375px)
-{
-    .image1 img
-    {
+@media(max-width : 1375px) {
+    .image1 img {
         height: 541px;
     }
-    .image2 img
-    {
+
+    .image2 img {
         height: 541px;
     }
-    .image3 img
-    {
+
+    .image3 img {
         height: 550px;
     }
-    .image4 img
-    {
+
+    .image4 img {
         height: 550px;
     }
-    .box5_right
-    {
+
+    .box5_right {
         padding-left: 123px;
     }
 }
 
-@media(max-width : 1275px)
-{
-    .image1 img
-    {
+@media(max-width : 1275px) {
+    .image1 img {
         height: 500px;
     }
-    .image2 img
-    {
+
+    .image2 img {
         height: 500px;
     }
-    .image3 img
-    {
+
+    .image3 img {
         height: 508px;
     }
-    .image4 img
-    {
+
+    .image4 img {
         height: 509px;
     }
-    .box5_right
-    {
+
+    .box5_right {
         padding-left: 123px;
     }
+
     .box5_image1 img {
         width: 311.429px;
         height: 326px;
     }
+
     .box5_image2 img {
         width: 260px;
         height: 260px;
     }
+
     .box5_image3 img {
         width: 301.429px;
         height: 310px;
     }
 }
 
-@media(max-width : 1186px)
-{
-    
+@media(max-width : 1186px) {
+    .header_list {
+        flex-direction: column;
+    }
+    .right_head_data {
+        align-items: start;
+        padding-top: 25vh;
+        justify-content: center;
+    }
+    .header_list li
+    {
+        padding-bottom: 85px;
+    }
+
+    .burger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 45px;
+    }
+
+    .line {
+        width: 33px;
+        background-color: black;
+        height: 4px;
+        margin: 5px 3px;
+    }
+
+    .nav_height {
+        height: 100vh;
+    }
+
+    .nav_visi {
+        opacity: 0;
+    }
+
+    .left_head_width {
+        width: 10vw;
+    }
 }
