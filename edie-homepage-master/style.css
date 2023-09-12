@@ -154,7 +154,7 @@
 }
 
 .main_box3_lower_email input {
-    width: 350px;
+    width: 94%;
     height: 57px;
     flex-shrink: 0;
     border-radius: 12px;
@@ -763,7 +763,75 @@
     line-height: normal;
 }
 
-@media(max-width : px)
+@media(max-width : 1487px)
 {
+    .main
+    {
+        height: 563vh;
+    }
+}
 
+@media(max-width : 1375px)
+{
+    .image1 img
+    {
+        height: 541px;
+    }
+    .image2 img
+    {
+        height: 541px;
+    }
+    .image3 img
+    {
+        height: 550px;
+    }
+    .image4 img
+    {
+        height: 550px;
+    }
+    .box5_right
+    {
+        padding-left: 123px;
+    }
+}
+
+@media(max-width : 1275px)
+{
+    .image1 img
+    {
+        height: 500px;
+    }
+    .image2 img
+    {
+        height: 500px;
+    }
+    .image3 img
+    {
+        height: 508px;
+    }
+    .image4 img
+    {
+        height: 509px;
+    }
+    .box5_right
+    {
+        padding-left: 123px;
+    }
+    .box5_image1 img {
+        width: 311.429px;
+        height: 326px;
+    }
+    .box5_image2 img {
+        width: 260px;
+        height: 260px;
+    }
+    .box5_image3 img {
+        width: 301.429px;
+        height: 310px;
+    }
+}
+
+@media(max-width : 1186px)
+{
+    
 }
