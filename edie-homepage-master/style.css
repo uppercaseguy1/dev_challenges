@@ -933,6 +933,10 @@
 }
 
 @media(max-width : 1066px) {
+    .main
+    {
+        height: 490vh;
+    }
     .main_box1 {
         padding-left: 175px;
     }
