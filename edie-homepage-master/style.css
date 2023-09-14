@@ -833,8 +833,9 @@
 }
 
 @media(max-width : 1186px) {
+
     .main {
-        height: 522vh;
+        height: 515vh;
     }
     .header_list {
         flex-direction: column;
@@ -875,11 +876,6 @@
     .left_head_width {
         width: 10vw;
     }
-
-    .main {
-        height: 510vh;
-    }
-
     .main_box1 {
         width: 50%;
     }
