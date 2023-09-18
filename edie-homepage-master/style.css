@@ -837,6 +837,7 @@
     .main {
         height: 515vh;
     }
+
     .header_list {
         flex-direction: column;
     }
@@ -876,6 +877,7 @@
     .left_head_width {
         width: 10vw;
     }
+
     .main_box1 {
         width: 50%;
     }
@@ -933,32 +935,38 @@
 }
 
 @media(max-width : 1066px) {
-    .main
-    {
+    .main {
         height: 490vh;
     }
+
     .main_box1 {
         padding-left: 175px;
     }
+
     .main_box3 {
         padding-left: 175px;
     }
+
     .main_box1_lower p {
         font-size: 42px;
     }
-    .main_box3_upper p
-    {
+
+    .main_box3_upper p {
         font-size: 42px;
     }
+
     .image1 img {
         height: 417px;
     }
+
     .image2 img {
         height: 416px;
     }
+
     .image3 img {
         height: 423px;
     }
+
     .image4 img {
         height: 423px;
     }
@@ -966,9 +974,11 @@
     .box5_left {
         padding-top: 129px;
     }
+
     .box5_left h1 {
         font-size: 26px;
     }
+
     .box5_left p {
         font-size: 16px;
     }
@@ -977,15 +987,100 @@
         width: 225.429px;
         height: 238px;
     }
+
     .box5_image2 img {
         width: 174px;
         height: 174px;
     }
+
     .box5_image3 img {
         width: 215.429px;
         height: 224px;
     }
+
     .footer_right_email input {
         width: 265px;
+    }
+}
+
+@media(max-width : 959px) {
+    .main {
+        height: 453vh;
+    }
+
+    .main_box1_lower p {
+        font-size: 37px;
+    }
+
+    .main_box3_upper p {
+        font-size: 37px;
+    }
+
+    .main_box3_middle p {
+        font-size: 16px;
+    }
+
+    .image1 img {
+        height: 371px;
+    }
+
+    .image2 img {
+        height: 371px;
+    }
+
+    .image3 img {
+        height: 377px;
+    }
+
+    .image4 img {
+        height: 377px;
+    }
+
+    .box5_left {
+        padding-top: 83px;
+    }
+
+    .box5_image1 {
+        padding-top: 76px;
+    }
+
+    .box5_image1 img {
+        width: 183.429px;
+        height: 196px;
+    }
+
+    .box5_image2 img {
+        width: 132px;
+        height: 132px;
+    }
+
+    .box5_image3 img {
+        width: 173.429px;
+        height: 182px;
+    }
+
+    .main_box6_content p {
+        font-size: 32px;
+    }
+
+    .box6_image img {
+        width: 68px;
+        height: auto;
+    }
+
+    .footer_right_email input {
+        width: 232px;
+    }
+}
+
+@media(max-width : 863px) {
+    .main_box1_lower p {
+        font-size: 33px;
+    }
+    .main_box3_upper p {
+        font-size: 33px;
+    }
+    .main_box3_middle p {
+        font-size: 14px;
     }
 }
