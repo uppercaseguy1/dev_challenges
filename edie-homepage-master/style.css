@@ -1074,6 +1074,9 @@
 }
 
 @media(max-width : 863px) {
+    .main {
+        height: 436vh;
+    }
     .main_box1_lower p {
         font-size: 33px;
     }
@@ -1082,5 +1085,134 @@
     }
     .main_box3_middle p {
         font-size: 14px;
+    }
+    .main_box4_item1 p {
+        font-size: 33px;
+    }
+    .main_box4_item3 p {
+        font-size: 33px;
+    }
+
+    .image1 img {
+        height: 333px;
+    }
+
+    .image2 img {
+        height: 333px;
+    }
+
+    .image3 img {
+        height: 338px;
+    }
+
+    .image4 img {
+        height: 339px;
+    }
+    .box5_right {
+        padding-left: 44px;
+    }
+    .main_box6_content p {
+        font-size: 29px;
+    }
+    .footer_right_email input {
+        width: 211px;
+        height: 45px;
+    }
+    .footer_right_email button {
+        right: 85px;
+        width: 79px;
+        height: 36px;
+        font-size: 17px;
+    }
+}
+
+@media(max-width : 773px)
+{
+    .main {
+        height: 477vh;
+    }
+    .main_box1_lower p {
+        font-size: 30px;
+    }
+    .main_box3_upper p {
+        font-size: 30px;
+    }
+    .main_box3_middle p {
+        font-size: 12px;
+    }
+    .main_box3_lower_email input {
+        height: 49px;
+    }
+    .main_box3_lower_email button {
+        right: 88px;
+        width: 84px;
+        height: 40px;
+    }
+    .main_box4_item1 {
+        width: 42%;
+        padding-left: 140px;
+    }
+    .main_box4_item1 p {
+        font-size: 30px;
+    }
+    .main_box4_item2 {
+        display: block;
+        padding-left: 152px
+    }
+    .main_box4_item2_container {
+        width: 71.3333%;
+    }
+    .main_box4_item3 p {
+        font-size: 28px;
+    }
+
+    .image1 img {
+        height: 296px;
+    }
+
+    .image2 img {
+        height: 296px;
+    }
+
+    .image3 img {
+        height: 301px;
+    }
+
+    .image4 img {
+        height: 301px;
+    }
+    .link p {
+        font-size: 20px;
+    }
+
+    .box5_left h2 {
+        font-size: 16px;
+    }
+    .box5_left h1 {
+        font-size: 22px;
+    }
+    .box5_left p {
+        font-size: 14px;
+    }
+    .box5_right {
+        padding-left: 0px;
+    }
+    .box5_image1 img {
+        width: 169.429px;
+        height: 182px;
+    }
+    .box5_image2 img {
+        width: 118px;
+        height: 118px;
+    }
+    .box5_image3 img {
+        width: 159.429px;
+        height: 168px;
+    }
+    .main_box6_content p {
+        font-size: 26px;
+    }
+    .footer_right_email input {
+        width: 186px;
     }
 }
