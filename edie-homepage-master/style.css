@@ -1657,14 +1657,9 @@
     }
 
     .main_box4_item1 {
-        padding-left: 1px;
         width: 52%;
     }
-
-    .card {
-        padding: 30px 0px;
-    }
-
+    
     .main_box4_item3 {
         width: 60%;
         padding-left: 0px;
@@ -1721,5 +1716,107 @@
 }
 
 @media(max-width : 443px) {
-    
+    .main_box1 {
+        width: 61%;
+    }
+    .main_box3 {
+        width: 55%;
+    }
+    .main_box4_item1 {
+        width: 56%;
+    }
+    .main_box4_item2_container {
+        width: 85.3333%;
+    }
+    .main_box4_item3 {
+        width: 66%;
+    }
+    .image1 img {
+        height: 357px;
+    }
+    .image2 img {
+        height: 357px;
+    }
+    .image3 img {
+        height: 368px;
+    }
+    .image4 img {
+        height: 358px;
+    }
+}
+
+@media(max-width : 395px)
+{
+    .main_box1 {
+        width: 73%;
+    }
+    .main_box1_upper p {
+        font-size: 15px;
+    }
+    .main_box3 {
+        width: 63%;
+    }
+    .main_box4 {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .main_box4_item1 {
+        width: 72%;
+    }
+    .main_box4_item2_container {
+        width: 91.3333%;
+    }
+    .main_box4_item3 {
+        width: 84%;
+    }
+    .image1 img {
+        height: 354px;
+    }
+    .image2 img {
+        height: 354px;
+    }
+    .image3 img {
+        height: 365px;
+    }
+    .image4 img {
+        height: 356px;
+    }
+    .main_box5 {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .imagebox2 {
+        padding-left: 8px;
+    }
+    .box5_image2 img {
+        width: 134px;
+        height: 134px;
+    }
+    .box5_image3 {
+        padding-top: 2px;
+    }
+}
+
+@media(max-width : 376px)
+{
+    .main {
+        height: 559vh;
+    }
+    .main_box3 {
+        width: 71%;
+    }
+    .image1 img {
+        height: 337px;
+    }
+    .image2 img {
+        height: 337px;
+    }
+    .image3 img {
+        height: 348px;
+    }
+    .image4 img {
+        height: 338px;
+    }
 }
