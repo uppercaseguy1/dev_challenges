@@ -1,20 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins&display=swap");
 
 * {
     margin: 0;
     padding: 0;
 }
 
-.hero
-{
+.background_image {
+    width: 100vw;
     height: 100vh;
-}
-
-.background_image
-{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -31,41 +26,35 @@
     padding-right: 6.5%;
 }
 
-.navbar
-{
+.navbar {
     height: 10vh;
     display: flex;
     align-items: center;
 }
 
-.logo
-{
+.logo {
     width: 50px;
     cursor: pointer;
 }
 
-nav
-{
+nav {
     flex: 1;
     text-align: right;
 }
 
-nav ul li
-{
+nav ul li {
     list-style: none;
     display: inline-block;
     margin-left: 60px;
 }
 
-nav ul li a
-{
+nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.heading
-{
+.heading {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -76,45 +65,39 @@ nav ul li a
 .heading h1 {
     font-size: 66px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.main
-{
+.main {
     height: 80vh;
     width: 100%;
     position: absolute;
     top: 10vh;
 }
 
-.container
-{
+.container {
     padding-left: 5%;
     padding-right: 5%;
     height: 100%;
     display: flex;
 }
 
-.container2
-{
+.container2 {
     padding-left: 77px;
     padding-top: 35px;
 }
 
-.upper_image
-{
+.upper_image {
     height: 50%;
     display: flex;
 }
 
-.lower_image
-{
+.lower_image {
     height: 50%;
     display: flex;
 }
 
-.card
-{
+.card {
     width: 200px;
     height: 230px;
     display: inline-block;
@@ -126,74 +109,70 @@ nav ul li a
     transition: 0.5s;
 }
 
-.card:hover
-{
+.card:hover {
     transform: translateY(-20px);
 }
 
-.card1
-{
+.card1 {
     background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2021/12/Taj-Mahal-min.jpg);
     background-position: center;
     background-size: cover;
 }
-.card2
-{
+
+.card2 {
     background-image: url(https://media.istockphoto.com/id/510795912/photo/india-gate.jpg?s=612x612&w=0&k=20&c=kZkdrEDXEtoLK6Qh8XPywc9VYV95mJXXcWLBxHftN_U=);
     background-position: center;
     background-size: cover;
 }
-.card3
-{
+
+.card3 {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/500/440/20/hawa-mahal-wallpaper-preview.jpg);
     background-position: center;
     background-size: cover;
 }
-.card4
-{
+
+.card4 {
     background-image: url(https://media.istockphoto.com/id/154894958/photo/amber-fort-jaipur-india.jpg?s=612x612&w=0&k=20&c=gCNirw30cmkl7clV30l8mcbmxOk-IAoT5ACxHRBQsdA=);
     background-position: center;
     background-size: cover;
 }
-.card5
-{
+
+.card5 {
     background-image: url(https://e0.pxfuel.com/wallpapers/429/359/desktop-wallpaper-ajanta-caves-maharashtra-by-microsoft.jpg);
     background-position: center;
     background-size: cover;
 }
-.card6
-{
+
+.card6 {
     background-image: url(https://wallpaperaccess.com/full/1828892.jpg);
     background-position: center;
     background-size: cover;
 }
-.card7
-{
+
+.card7 {
     background-image: url(https://media.istockphoto.com/id/1045842232/photo/fatehpur-sikri-anup-talao-is-a-red-sandstone-architectural-structure-with-a-pool-connected.jpg?s=612x612&w=0&k=20&c=ogINmPTUFeAJgTdeO2YLRozhbPD4wAUrLGejL9ZnqCs=);
     background-position: center;
     background-size: cover;
 }
-.card8
-{
+
+.card8 {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/707/686/329/architecture-asian-architecture-india-konark-wallpaper-preview.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.card h5{
-    color:white;
-    font-family: 'Poppins', sans-serif;
+.card h5 {
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
 
-.card a
-{
+.card a {
     text-decoration: none;
-    color:white;
-    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
 
-.footer
-{
+.footer {
     height: 10vh;
     width: 100%;
     position: absolute;
@@ -201,17 +180,279 @@ nav ul li a
     left: 0;
 }
 
-.footer_data
-{
+.footer_data {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer_data h5
-{
-    color:white;
-    font-family: 'Poppins', sans-serif;
+.footer_data h5 {
+    color: white;
+    font-family: "Poppins", sans-serif;
     cursor: pointer;
 }
+
+@media (max-width: 1375px) {
+    .card {
+        width: 183px;
+    }
+}
+
+@media (max-width: 1305px) {
+    .container2 {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 1375px) {
+    .card {
+        width: 168px;
+        height: 210px;
+    }
+}
+
+@media (max-width: 1173px) {
+    .heading h1 {
+        font-size: 53px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .card {
+        width: 155px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .card {
+        width: 143px;
+        height: 178px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .card {
+        width: 131px;
+        height: 166px;
+    }
+}
+
+@media (max-width: 1115px) {
+    .card {
+        width: 120px;
+        height: 155px;
+    }
+}
+
+@media (max-width: 909px) {
+    .container2 {
+        padding-left: 0;
+        padding-top: 0;
+        display: flex;
+    }
+
+    .upper_image {
+        display: block;
+        height: 100%;
+    }
+
+    .lower_image {
+        display: block;
+        height: 100%;
+    }
+
+    .card {
+        width: 256px;
+    }
+}
+
+@media (max-width: 860px) {
+    .card {
+        width: 234px;
+    }
+}
+
+@media (max-width: 860px) {
+    .card {
+        width: 214px;
+    }
+}
+
+@media (max-width: 776px) {
+    .heading h1 {
+        font-size: 48px;
+    }
+
+    .card {
+        width: 208px;
+    }
+}
+
+@media (max-width: 738px) {
+    .card {
+        width: 191px;
+    }
+}
+
+@media (max-width: 716px) {
+    .card {
+        width: 175px;
+    }
+}
+
+@media (max-width: 666px) {
+    .heading h1 {
+        font-size: 41px;
+    }
+}
+
+@media (max-width: 631px) {
+    .card {
+        width: 160px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        margin-left: 27px;
+    }
+    .heading h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 566px) {
+    .card {
+        width: 146px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container
+    {
+        display: block;
+    }
+    .background_image
+    {
+        height: 110vh;
+    }
+    .main
+    {
+        height: 90vh;
+    }
+    .heading
+    {
+        height: 10%;
+    }
+    .card {
+        width: 212px;
+    }
+    .footer
+    {
+        top: 100vh;
+    }
+}
+
+@media (max-width: 510px) {
+    .card
+    {
+        width: 199px;
+    }
+}
+
+@media (max-width: 484px) {
+    .card
+    {
+        width: 187px;
+    }
+    nav ul li {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 458px) {
+    .card
+    {
+        width: 176px;
+    }
+    .heading h1 {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 436px) {
+    .card
+    {
+        width: 166px;
+    }
+}
+
+@media (max-width: 436px) {
+    .card
+    {
+        width: 166px;
+    }
+}
+
+@media (max-width: 415px) {
+    .card {
+        width: 156px;
+    }
+    .heading h1 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 408px) {
+    nav ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 395px) {
+    .card {
+        width: 147px;
+    }
+    nav ul li {
+        margin-left: 7px;
+    }
+}
+
+@media (max-width: 374px) {
+    .card {
+        width: 138px;
+    }
+}
+
+@media (max-width: 357px) {
+    .card {
+        width: 129px;
+    }
+    .heading h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 340px) {
+    nav ul li a {
+        font-size: 13px;
+    }
+    .card {
+        width: 121px;
+    }
+}
+
+@media (max-width: 330px) {
+    .heading h1 {
+        font-size: 23px;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    .card {
+        width: 114px;
+    }
+}
+
