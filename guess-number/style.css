@@ -8,30 +8,33 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4a98f7;
+    /* background: #4a98f7; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(background.png);
 }
+
 
 .wrapper {
     padding: 30px 40px;
     border-radius: 12px;
-    background: #fff;
     text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 100);
 }
 
 .wrapper header {
     font-size: 18px;
     font-weight: 400;
-    color: #333;
+    color: white;
 }
 
 .wrapper p {
-    color: #333;
+    color:white;
 }
 
 .wrapper .input-field {
