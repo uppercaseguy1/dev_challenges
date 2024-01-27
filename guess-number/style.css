@@ -16,7 +16,7 @@ body {
     justify-content: center;
     /* background: #4a98f7; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(background.png);
+        url(background.jpg);
 }
 
 
@@ -72,7 +72,7 @@ input::-webkit-outer-spin-button {
 
 .input-field button {
     border: none;
-    background: #4a98f7;
+    background: #7db2f7;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
