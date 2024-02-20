@@ -458,7 +458,3 @@ function changeTimeSpan(unit) {
         getWeatherData(currentCity, currentUnit, hourlyorWeek);
     }
 }
-
-
-
-
